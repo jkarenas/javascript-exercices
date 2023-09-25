@@ -1,0 +1,2 @@
+//prototipos:metodo en el que todos los elementos u objetos puededn extender propiedades y metodos
+//cuando un objeto global le extiendo propiedades o metodos a cualquier tipo de dato se llama herencia
