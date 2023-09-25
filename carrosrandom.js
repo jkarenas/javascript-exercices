@@ -2,7 +2,7 @@
 
 //creo un array donde se guardara la lista de autos
 var autos=[]
-//creamos la funcion constructora
+//creamos la funcion constructoraa
 function carro (marca,modelo,color){
     this.marca=marca
     this.modelo=modelo

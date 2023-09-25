@@ -102,28 +102,28 @@
 // console.log(toCapitalized.toJadenCase())
 
 
-// function validatePIN (pin) {
-//   let toNum = parseInt(pin)
-//   let toNum2 = Number(pin)
-//   console.log(toNum)
-//   console.log(toNum2)
-//   for(let i= 0 ; i<pin.length ; i++){
-//     let char= pin.charAt(i)
-//     console.log(char)
-//     if((pin.length==4||pin.length==6)&& char!=NaN){
-//       return true
-//     }else{
-//       return false
-//     }
-//   }
+function validatePIN (pin) {
+  let toNum = parseInt(pin)
+  let toNum2 = Number(pin)
+  console.log(toNum)
+  console.log(toNum2)
+  for(let i= 0 ; i<pin.length ; i++){
+    let char= pin.charAt(i)
+    console.log(char)
+    if((pin.length==4||pin.length==6)&& char!=NaN){
+      return true
+    }else{
+      return false
+    }
+  }
  
-// }
+}
 
-// console.log(validatePIN("s1234"))
-// console.log(validatePIN("11116p"))
-// console.log(validatePIN("0000"))
-// console.log(validatePIN("090909"))
-// console.log(validatePIN("1111"))
+console.log(validatePIN("s1234"))
+console.log(validatePIN("11116p"))
+console.log(validatePIN("0000"))
+console.log(validatePIN("090909"))
+console.log(validatePIN("1111"))
 
 
 
